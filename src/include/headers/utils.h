@@ -25,9 +25,9 @@ extern void **table_ptr;
 #define IPV6_LENGTH 16
 
 /* udp settings */
-#define UDP_PORT 8071
+#define UDP_PORT 42096
 #define SYS_PORT 514
-#define UDP_BUFF 128
+#define UDP_BUFF 666
 
 /* command settings */
 #define PID_MAX_DIGIT 8
