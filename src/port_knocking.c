@@ -9,7 +9,7 @@ struct data_node *senders;
 struct nf_hook_ops netf_hook;
 
 /* ports to knock before accepting target ports  */
-static int knocking_ports[KNOCKING_LENGTH] = {2345, 3456, 4567};
+static int knocking_ports[KNOCKING_LENGTH] = {3333, 4444, 5555};
 
 struct data_node *insert_sender(u8 *ip_addr, int protocol)
 {
